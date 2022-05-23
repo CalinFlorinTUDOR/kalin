@@ -1,0 +1,79 @@
+.parent1 {
+    border: dotted;
+    width: 845px;
+    height: 210px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.element {
+    float: left;
+    width: 209px;
+    height: 209px;
+    background: red;
+    margin: 1px;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+.element1 {
+    float: left;
+    width: 209px;
+    height: 209px;
+    background: green;
+    margin: 1px;
+    top: left;
+    position: static;
+}
+.parent2 {
+    border: dotted;
+    width: 845px;
+    height: 210px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.element {
+    float: left;
+    width: 209px;
+    height: 209px;
+    background: red;
+    margin: 1px;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+.element1 {
+    float: left;
+    width: 209px;
+    height: 209px;
+    background: green;
+    margin: 1px;
+    top: left;
+    
+}
+.parent3 {
+    border: dotted;
+    width: 845px;
+    height: 210px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.element {
+    float: left;
+    width: 209px;
+    height: 209px;
+    background: red;
+    margin: 1px;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+.element1 {
+    float: left;
+    width: 209px;
+    height: 209px;
+    background: green;
+    margin: 1px;
+    top: left;
+    
+
+}
