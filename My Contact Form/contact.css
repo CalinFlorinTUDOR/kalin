@@ -1,0 +1,17 @@
+body {
+    background-color: green;
+}
+h1 {
+    color: azure;
+    text-align: center;
+}
+.box {
+    box-sizing: border-box;
+    background-color: orange;
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    margin: auto;
+    border: 2px solid;
+}
+
