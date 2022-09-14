@@ -25,6 +25,7 @@ async function displayEuroCountries() {
     <div class="country-container">
         <img class="img-flag" width= '200' height='100'  border= '2px solid black' src="${country.flags.png}"/>
     <h3 class="country-name">${country.name}</h3>
+    <h3>Country Code: ${country.alpha3Code}</h3>
     <h3 class="capital">Capital: ${country.capital === undefined ? 'No capital' : country.capital}</h3>
     <h3>Language: ${!Object.values(country.languages) ? 'No Language' : Object.values(country.languages)[0].name}</h3>
     <h3>Currency: ${Object.values(country.currencies[0])}</h3>
