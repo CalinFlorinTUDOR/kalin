@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In Form</title>
+</head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .log-in-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  </style>
+<body>
+  <form id="log-in-form"  class="log-in-form">
+    <input
+    id="username"
+    class="username" 
+    type="text" 
+    placeholder="Insert username">
+
+    <input 
+    id="password"
+    type="password" 
+    class="password" 
+    placeholder="Insert password">
+
+    <button id="submit-btn" type="submit" class="submit-btn">Log In</button>
+  </form>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
