@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(17, 21, 24);
+}
+h1 {
+    color: azure;
+    text-align: center;
+    margin-top: 250px;
+}
+.box {
+    color: orange;
+    box-sizing: border-box;
+    background-color: rgb(31, 30, 30);
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 500px;
+    left: 700px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#fname {
+    width: 400px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 5px;
+    
+}
+
+#lname {
+    width: 400px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 5px;
+    
+}
+
+#green , #male {
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+#contact {
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+#btn {
+    margin-left: 200px;
+    margin-top: 10px;
+}

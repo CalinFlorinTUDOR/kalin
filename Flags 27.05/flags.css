@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roumanian_flag {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 40%;
+    top: 150px;
+    
+}
+.blue {
+    background-color: blue;
+    width: 400px;
+    height: 100px;
+}
+.yellow {
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+}
+.red {
+    background-color: red;
+    width: 400px;
+    height: 100px;
+}
+.text {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    transform: translate( -3%, 40%);
+}
+.lithuanian_flag {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 0%;
+    top: 50%;
+    margin-top: 20px;
+}
+.green {
+    background-color: green;
+    width: 400px;
+    height: 100px;
+}
+.text1 {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    transform: translate(-3%, 40%);
+}
+
+

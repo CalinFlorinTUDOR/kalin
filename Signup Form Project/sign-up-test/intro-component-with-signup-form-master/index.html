@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Reproduce page | Intro component with sign up form</title>
+	</head>
+	<body>
+		<section class="left-container">
+			<h1 class="left-container__title">Learn to code by watching others</h1>
+			<p class="left-container__description">
+				See how experienced developers solve problems in real-time. Watching
+				scripted tutorials is great, but understanding how developers think is
+				invaluable.
+			</p>
+		</section>
+		<section class="right-container">
+			<button class="right-container__trial-button">
+				<span>Try it free 7 days</span> then $20/mo. thereafter
+			</button>
+
+			<div class="right-container__form">
+				<form class="signup-form">
+					<label for="firstName"></label>
+					<input type="text" id="firstName" placeholder="First Name" />
+
+					<label for="lastName"></label>
+					<input type="text" id="lastName" placeholder="Last Name" />
+
+					<label for="email"></label>
+					<input type="email" id="email" placeholder="Email" />
+
+					<label for="password"></label>
+					<input type="password" id="password" placeholder="Password" />
+
+					<button class="signup-form__claim-button">
+						CLAIM YOUR FREE TRIAL
+					</button>
+				</form>
+
+				<p class="tos">
+					By clicking the button, you are agreeing to our
+					<span>Terms and Services</span>
+				</p>
+			</div>
+		</section>
+		<script src="test.js"></script>
+	</body>
+</html>

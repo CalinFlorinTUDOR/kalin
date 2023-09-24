@@ -1,0 +1,39 @@
+body {
+
+  background-color: black;
+
+}
+
+.search {
+
+  color: antiquewhite;
+  margin-top: 150px;
+  margin-left: 100px;
+  
+}
+
+.search_input {
+
+  color: antiquewhite;
+  margin-left: 90rem;
+
+}
+
+input {
+
+  caret-color: red;
+
+}
+
+
+#searchInput {
+
+  background-color: antiquewhite;
+
+}
+
+.hidden {
+
+  display: none;
+
+}

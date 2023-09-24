@@ -1,0 +1,14 @@
+body {
+  background-color: #101111;
+}
+
+th {
+  color: antiquewhite;
+}
+
+th,td {
+  
+  border: 1px solid rgb(97, 219, 219);
+  padding: 5px;
+
+}
