@@ -1,1 +1,1 @@
-Beginner Academic Projects!
+Beginner Academic Projects! - newbie skills! :) 
