@@ -2,8 +2,6 @@ document.body.style.backgroundImage = " url('./Images/mercury.png')";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundSize = "cover";
 
-
-
 const box = document.getElementById('box');
 
   document.getElementById("box").style.position = "relative";
@@ -28,36 +26,39 @@ const box = document.getElementById('box');
     "Do as you wish. Be as you are.",
     "Everything you can imagine is real. ",
     "Learn to say no without explain yourself. "
-    ],
+    ];
 
-  randSentence = sentenceArray[Math.floor(Math.random() * sentenceArray.length)];
-  document.getElementById("box").textContent = randSentence;
-  if (typeof prevSentence == "undefined") {
-        newSentence = randSentence;
-      } else {
-        newSentence = randSentence;
-        if (newSentence == prevSentence) randomNum += 1;
-      };
+    let currentIndex = 0;
+    const boxText = document.getElementById("box");
 
+function changeSentence() {
+  boxText.textContent = sentenceArray[currentIndex];
+  currentIndex = (currentIndex + 1) % sentenceArray.length;
+}
 
+// Initial sentence change
+changeSentence();
+
+// Set interval to change sentence every 5 seconds
+setInterval(changeSentence, 5000);
   
-const btn = document.getElementById('btn');
-
-  document.getElementById("btn").style.position = "relative";
-  document.getElementById("btn").style.left = "50%";
-  document.getElementById("btn").style.right = "50%";
-
+  const btn = document.getElementById('btn');
+  
+    document.getElementById("btn").style.position = "relative";
+    document.getElementById("btn").style.left = "50%";
+    document.getElementById("btn").style.right = "50%";
+  
 btn.addEventListener('click', function handleClick() {
 
   
   if (box.style.display === 'none') {
     box.style.display = 'block';
 
-    btn.textContent = 'So soon quit you?';
+    btn.textContent = 'So, soon quit you?';
   } else {
     box.style.display = 'none';
 
-    btn.textContent = 'Inlighting beginns';
+    btn.textContent = 'Inlighting begins !';
   }
 });
 

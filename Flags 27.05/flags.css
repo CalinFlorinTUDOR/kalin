@@ -1,10 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .roumanian_flag {
     width: 400px;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    left: 35%;
+    left: 40%;
+    top: 150px;
+    
 }
 .blue {
     background-color: blue;
@@ -48,4 +56,5 @@
     text-align: center;
     transform: translate(-3%, 40%);
 }
+
 
